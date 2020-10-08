@@ -1,0 +1,9 @@
+body {
+  background: url("/images/blackbackground.png");
+  font-family: sans-serif; }
+  body img {
+    width: 100%; }
+  body article {
+    color: white; }
+  body footer {
+    color: white; }
