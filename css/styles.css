@@ -1,6 +1,7 @@
 body {
   background: url("../images/blackbackground.jpg");
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  background-size: 100% 100%; }
   body img {
     width: 100%; }
   body article {
