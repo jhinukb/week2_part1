@@ -7,6 +7,9 @@ body {
   body article {
     color: white; }
   body h1 {
+    color: white;
+    margin-left: 250px; }
+  body h2 {
     text-shadow: 4px 4px 3px gray;
     font-size: 50px;
     margin-left: 65px;
@@ -42,7 +45,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     border: 10px solid white;
-    box-shadow: inset 0px 11px 8px -10px black, inset 0px -11px 8px -10px black; }
+    width: 900px;
+    height: 428px; }
   body a {
     border: 2px solid red;
     line-height: 50px;
