@@ -1,6 +1,6 @@
 body {
 	background: url('../images/blackbackground.jpg');
-	font-family: sans-serif;
+	font-family: verdana, sans-serif;
 	background-size: 100% 100%;
 
 	img {
@@ -11,8 +11,60 @@ body {
 		color: white;
 	}
 
+	h1 {
+		text-shadow: 4px 4px 3px gray;
+		font-size: 50px;
+		margin-left: 65px;
+		letter-spacing: 5px;
+		// margin-right: auto;
+	}
+
+	h3 {
+		font-size: 30px;
+		margin-left: 100px;
+	}
+
+	p {
+		font-size: 18px;
+		margin-left: 150px;
+		margin-right: 150px;
+		line-height: 40px;
+		border-color: gold;
+		border-width: medium;
+		border-style: double;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: black;
+	}
+
+	ol {
+		margin-left: 200px;
+		margin-right: 1050px;
+		line-height: 30px;
+		font-size: 20px;
+		list-style-type: upper-roman;
+		background: black;
+  	padding: 5px;
+	}
+
 	footer {
 		color: white;
 	}
 
+	iframe {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border: 10px solid white;
+		box-shadow: inset 0px 11px 8px -10px black, inset 0px -11px 8px -10px black;
+	}
+
+	a {
+		border: 2px solid red;
+		line-height: 50px;
+		background: gold;
+		padding: 4px;
+	}
 }
